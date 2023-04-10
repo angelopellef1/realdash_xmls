@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RealDashCAN version="2">
+    <frames>
+        <frame id="0x281">
+            <value targetId="37" offset="5" length="2" conversion="V/8"></value><!-- RPM -->
+        </frame>
+        <frame id="0x2a0"  endianess="big">
+            <value targetId="81" offset="0" length="2" conversion="V/10"></value>
+        </frame>
+		<frame id="0x281"  endianess="big">
+            <value targetId="14" offset="3" length="1" conversion="V-40"></value><!--coolant-->
+        </frame>
+    </frames>
+</RealDashCAN>
